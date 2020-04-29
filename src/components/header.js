@@ -60,7 +60,7 @@ class Header extends React.Component {
           <StripeCheckout
             amount={5000}
             token={this.handlePurchase}
-            stripeKey={'pk_test_mX6hcbHmD3D1HTfCZOkspii200rp7nN1f4'}
+            stripeKey={'YOUR_STRIPE_PUBLISHABLE_KEY}
           >
             <button>Buy</button>
           </StripeCheckout>
